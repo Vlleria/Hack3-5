@@ -1,0 +1,100 @@
+/* ----------------------------
+FONT: Horizon
+
+TEXT: ¡música en directo!
+
+----------------------------
+FONT: Anonymous Pro
+
+TEXT: Con dos Invitados especiales, los Reyes de la música
+TEXT: Haz tu reserva en www.unsitioincreible.com
+
+----------------------------
+FONT: Anton
+
+TEXT: música Club
+
+----------------------------
+MAIN BACKGROUND
+
+COLOR: #5CE1E6
+ */
+
+body{
+
+    height: 100%;
+    background:  #5CE1E6;
+}
+
+aside{
+    height: 191vh;
+    position: absolute;
+    width: 11%;
+    background: white;
+    margin-left: 40px;
+}
+
+.container1{
+    position: relative;
+
+
+}
+.container1>figure{
+    width: 100%;
+}
+img{
+    height: auto;
+    width: 40%;
+}
+.seccion1>img{
+    position: absolute;
+    left: 14%;
+    text-align: center;
+/*     display: flex; */
+}
+p{
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Bebas Neue";
+    font-weight:900;
+    margin: 250px 0 0 800px;
+}
+.container2{
+    position: relative;
+    
+    
+}
+.seccion2>img{
+    position: absolute;
+    left: 54%;
+    margin-top: 51.5%;
+    text-align: center;
+}
+h1{
+    position: absolute;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: "Anonymous Pro";
+    font-weight:900;
+    margin: 800px 800px 50px 240px;
+    line-height: 130%;
+    
+}
+h2{
+    position: absolute;
+    font-size: 30px;
+    font-family: "Anonymous Pro";
+    margin-top: 51.5%;
+    margin: 1200px 800px 50px 240px;
+    line-height: 120%;
+}
+span{
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Anton";
+    margin: 1300px 100px 50px 1100px;
+    
+}
